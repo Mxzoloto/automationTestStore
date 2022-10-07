@@ -1,6 +1,7 @@
 /// <reference types="cypress"/>
+import { faker } from "@faker-js/faker";
 
-it("Registration", () => {
+it.skip("Registration", () => {
   cy.visit("/");
 
   cy.get("#customer_menu_top").click();
